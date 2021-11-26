@@ -1,7 +1,7 @@
 // deno-lint-ignore-file
 // deno-lint-ignore-file
 
-const $$observable = Symbol("@@observable");
+const $$observable = Symbol.for("@@observable");
 
 const NO = {};
 function noop() {}
